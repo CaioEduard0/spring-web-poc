@@ -1,0 +1,15 @@
+server:
+  port: 8090
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: admin
+    driverClassName: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+
+viacep:
+  url: https://viacep.com.br/ws/%s/json/
