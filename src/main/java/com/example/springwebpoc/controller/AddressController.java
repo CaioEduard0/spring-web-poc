@@ -1,4 +1,4 @@
-package com.example.springwebpoc.resource;
+package com.example.springwebpoc.controller;
 
 import com.example.springwebpoc.entity.Address;
 import com.example.springwebpoc.service.AddressService;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequiredArgsConstructor
-class AddressResource {
+class AddressController {
 
     private final AddressService addressService;
 
